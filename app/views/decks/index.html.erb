@@ -1,0 +1,5 @@
+Deck index
+<% @decks.each do |d| %>
+
+  <li><%= link_to d.name, deck_path(d) %></li>
+<% end %>

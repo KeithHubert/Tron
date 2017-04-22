@@ -17,12 +17,10 @@ class App extends React.Component {
   }
 
   render(){
-    // <img src={`${this.state.cards.cards[0].imageUrl}`}>
-    debugger
     return(
       <div>
         <h1> Hello World! </h1>
-        <img src={'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=94&type=card'}>
+        <img src={'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=94&type=card'}/>
       </div>
     )
   }

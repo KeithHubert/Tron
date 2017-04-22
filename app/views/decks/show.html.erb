@@ -1,0 +1,8 @@
+Deck show page
+
+<% @cards.each do |c| %>
+
+
+  <li><%= c.name %></li>
+<img src="<%= c.image_url %>" />
+<% end %>
